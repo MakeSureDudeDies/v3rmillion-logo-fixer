@@ -6,7 +6,7 @@
 // @author       MakeSureDudeDies
 // @icon         https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Trollface_non-free.png/330px-Trollface_non-free.png
 // @grant        none
-// @version      1.1
+// @version      1.2
 // @require      https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js
 // @description  fix yo logo
 // ==/UserScript==
@@ -19,6 +19,3 @@ $(document).ready(function(){
     this.$ = this.jQuery = jQuery.noConflict(true);
     $("img[src='"+old_url+"']").attr("src", new_url);
 });
-
-// what was fixed
-// desc + creator + new jquery ver + fixed repping and quickediting
